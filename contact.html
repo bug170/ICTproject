@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us – ChatGPT</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="global.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="leftnav">
+        <a href="#">
+          <img id="chatgpt-icon" src="images/chatgptlogo.png" />
+        </a>
+      </div>
+
+      <div class="midnav">
+        <div class="navlink"><a href="about.html">home</a></div>
+        <div class="navlink"><a href="features.html">about</a></div>
+        <div class="navlink"><a href="pricing.html">pricing</a></div>
+        <div class="navlink">
+          <a href="https://openai.com/index/dall-e-2">dall-e</a>
+        </div>
+
+        <div class="navlink"><a href="login.html">login</a></div>
+      </div>
+
+      <div class="rightnav">
+        <a href="https://x.com/"><img src="images/x.png" class="navicon" /></a>
+        <a href="https://www.instagram.com/chatgpt/"
+          ><img src="images/insta.svg" class="navicon"
+        /></a>
+        <a href="https://github.com/"
+          ><img src="images/github.png" class="navicon"
+        /></a>
+      </div>
+    </div>
+
+    <section class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq">
+        <div class="faq-question">What is ChatGPT?</div>
+        <div class="faq-answer">Ask ChatGPT.</div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-question">Is ChatGPT free to use?</div>
+        <div class="faq-answer">Yesn't.</div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-question">Can I use ChatGPT in my own apps?</div>
+        <div class="faq-answer">Yes.</div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-question">Does ChatGPT store conversations?</div>
+        <div class="faq-answer">For research purposes.</div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-question">Can ChatGPT browse the internet?</div>
+        <div class="faq-answer">Yes.</div>
+      </div>
+
+      <div class="faq">
+        <div class="faq-question">Is ChatGPT safe?</div>
+        <div class="faq-answer">ChatGPT says Yes.</div>
+      </div>
+      <div class="faq">
+        <div class="faq-question">
+          Can I access my ChatGPT subscription from another device?
+        </div>
+        <div class="faq-answer">Yes.</div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="contact-container">
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" />
+          <input type="email" id="email" placeholder="Your Email" />
+          <textarea id="message" placeholder="Your Message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+
+        <p id="error"></p>
+      </div>
+
+      <a href="https://maps.app.goo.gl/7FCWNtjuj91gC8k26"
+        ><div class="map-bg"><img class="mapimage" src="images/map.jpg" /></div
+      ></a>
+    </section>
+
+    <script src="contact.js"></script>
+  </body>
+</html>

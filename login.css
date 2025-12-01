@@ -1,0 +1,54 @@
+.flex {
+  margin: 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background: rgba(255, 255, 255, 0.1);
+  width: 350px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+}
+
+input {
+  width: 95%;
+  padding: 8px;
+  margin-top: 4px;
+  border: none;
+  border-radius: 6px;
+}
+.main-btn:hover {
+  transition: 0.5s;
+  background-color: #8d5bf2;
+}
+.main-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background: rgb(255, 255, 255);
+  border: solid #8d5bf2;
+  border-width: 3px;
+  border-radius: 99px;
+  font-weight: bold;
+  cursor: pointer;
+}
+a {
+  color: #a01df8;
+}
+.small {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.error {
+  font-size: 13px;
+  height: 14px;
+  color: #fc0404;
+}

@@ -1,0 +1,97 @@
+.flex {
+  margin: 150px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  width: 750px;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  gap: 40px;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input {
+  width: 95%;
+  padding: 8px;
+  margin-top: 4px;
+  border: none;
+  border-radius: 6px;
+}
+
+.main-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: #f9f9fa;
+  border: 3px solid #8d5bf2;
+  border-radius: 99px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.right {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 30px;
+}
+.social {
+  width: 300px;
+  padding: 20px 0;
+  border-radius: 50px;
+  border: solid #8d5bf2;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 0;
+  text-align: center;
+  border-width: 3px;
+}
+
+.google,
+.facebook,
+.apple {
+  background: white;
+  color: black;
+}
+
+.error {
+  font-size: 13px;
+  height: 14px;
+  color: #fe0404;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 40px;
+  vertical-align: middle;
+}
+#apple {
+  margin-right: 66px;
+}
+
+#gog {
+  margin-right: 56px;
+}
+.main-btn:hover,
+.google:hover,
+.facebook:hover,
+.apple:hover {
+  transition: 0.5s;
+  background-color: #8d5bf2;
+}
